@@ -1,8 +1,25 @@
-# React + Vite
+# Café Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+A React-based web application designed for a café. The app features a dynamic menu, social media integration, and a direct link for Google reviews. Built using React, Bootstrap, and CSS for a modern and responsive user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **Dynamic Menu:** Display and manage the café's menu items interactively.
+- **Social Media Integration:** Connect and interact with social media platforms.
+- **Google Reviews:** Provide a direct link for customers to leave reviews on Google.
+- **Responsive Design:** Ensures a seamless experience across various devices.
+
+## Technologies Used
+
+- **React:** For building the user interface.
+- **Bootstrap:** For responsive design and UI components.
+- **CSS:** For custom styling and layout adjustments.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm (Node Package Manager)
+  
