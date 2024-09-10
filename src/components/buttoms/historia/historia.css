@@ -1,0 +1,15 @@
+/* buttoms/buttons.css */
+.button-common {
+  background-color: #FF6347; /* Color de fondo común */
+  color: white; /* Color del texto */
+  padding: 10px 20px; /* Espaciado interno */
+  border: none; /* Elimina el borde */
+  border-radius: 5px; /* Bordes redondeados */
+  font-size: 16px; /* Tamaño de fuente */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  transition: background-color 0.3s ease; /* Efecto de transición para el fondo */
+}
+
+.button-common:hover {
+  background-color: #FF4500; /* Color de fondo al pasar el ratón */
+}
