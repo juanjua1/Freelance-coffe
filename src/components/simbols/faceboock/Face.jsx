@@ -16,7 +16,7 @@ function facebook() {
                 boxShadow: 'none'
             }}
         >
-        <FaFacebook style={{ color: '#E1306C', fontSize: '2rem' }} />   
+        <FaFacebook style={{ color: '#2F4F4F', fontSize: '2rem' }} />   
         </Button>
     );
 }

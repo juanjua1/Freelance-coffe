@@ -18,7 +18,7 @@ function WhatsAppIcon() {
         boxShadow: 'none'  // Elimina cualquier sombra que pueda dar la impresión de fondo
       }}
     >
-      <FaWhatsapp style={{ color: '#25D366', fontSize: '2rem' }} />  {/* Color y tamaño del icono */}
+      <FaWhatsapp style={{ color: '#2F4F4F', fontSize: '2rem' }} />  {/* Color y tamaño del icono */}
     </Button>
   );
 }

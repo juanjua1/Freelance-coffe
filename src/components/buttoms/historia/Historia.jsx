@@ -20,7 +20,32 @@ function OffCanvasExample({ name, ...props }) {
           <Offcanvas.Title>Nuestra historia</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          Juliana y Marito abrieron una cafeteria. Juan quiere cafe gratis.
+          
+
+Yo vagaba mucho tiempo en el error,
+Agobiado en el pecado y el temor;
+Cuando vi al Salvador
+y escuché su tierna voz,
+Mi Señor me hizo libre por su amor.
+
+Coro:
+Libre estoy, libre estoy,
+Por la gracia del Señor libre estoy.
+Libre estoy, libre estoy,
+¡Aleluya, por la fe libre estoy!
+
+Yo vagaba mucho tiempo en el error,
+Sin pensar en el amor del Salvador,
+Yo andaba con temor,
+lejos de mi Redentor,
+¡Mas ahora por su muerte libre estoy!
+
+Yo vagaba mucho tiempo en el error,
+Mas ahora quiero andar con mi Señor,
+Quiero oír su tierna voz,
+y seguirle siempre en pos,
+¡Gloria, gloria sea a nuestro buen Pastor!
+
         </Offcanvas.Body>
       </Offcanvas>
     </>

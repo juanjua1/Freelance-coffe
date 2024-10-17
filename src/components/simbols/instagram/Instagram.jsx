@@ -16,7 +16,7 @@ function InstagramButton() {
           boxShadow: 'none'  // Elimina cualquier sombra que pueda dar la impresión de fondo
         }}
       >
-      <FaInstagram style={{ color: '#E1306C', fontSize: '2rem' }} />
+      <FaInstagram style={{ color: '#2F4F4F', fontSize: '2rem' }} />
     </Button>
   );
 }
