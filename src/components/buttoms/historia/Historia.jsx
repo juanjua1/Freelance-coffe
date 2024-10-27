@@ -12,40 +12,30 @@ function OffCanvasExample({ name, ...props }) {
   return (
     <>
       <Button variant="primary" onClick={handleShow} className='button-common'>
-        {name}
-        
+        Nuestra Historia
       </Button>
       <Offcanvas show={show} onHide={handleClose} {...props}>
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Nuestra historia</Offcanvas.Title>
+          <Offcanvas.Title>Nuestra Historia</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          
-
-Yo vagaba mucho tiempo en el error,
-Agobiado en el pecado y el temor;
-Cuando vi al Salvador
-y escuché su tierna voz,
-Mi Señor me hizo libre por su amor.
-
-Coro:
-Libre estoy, libre estoy,
-Por la gracia del Señor libre estoy.
-Libre estoy, libre estoy,
-¡Aleluya, por la fe libre estoy!
-
-Yo vagaba mucho tiempo en el error,
-Sin pensar en el amor del Salvador,
-Yo andaba con temor,
-lejos de mi Redentor,
-¡Mas ahora por su muerte libre estoy!
-
-Yo vagaba mucho tiempo en el error,
-Mas ahora quiero andar con mi Señor,
-Quiero oír su tierna voz,
-y seguirle siempre en pos,
-¡Gloria, gloria sea a nuestro buen Pastor!
-
+          Yo vagaba mucho tiempo en el error,  
+          Agobiado en el pecado y el temor;  
+          Cuando vi al Salvador y escuché su tierna voz,  
+          Mi Señor me hizo libre por su amor.
+          Coro:  
+          Libre estoy, libre estoy,  
+          Por la gracia del Señor libre estoy.  
+          Libre estoy, libre estoy,  
+          ¡Aleluya, por la fe libre estoy!
+          Yo vagaba mucho tiempo en el error,  
+          Sin pensar en el amor del Salvador,  
+          Yo andaba con temor, lejos de mi Redentor,  
+          ¡Mas ahora por su muerte libre estoy!
+          Yo vagaba mucho tiempo en el error,  
+          Mas ahora quiero andar con mi Señor,  
+          Quiero oír su tierna voz, y seguirle siempre en pos,  
+          ¡Gloria, gloria sea a nuestro buen Pastor!
         </Offcanvas.Body>
       </Offcanvas>
     </>
@@ -55,11 +45,10 @@ y seguirle siempre en pos,
 function Example() {
   return (
     <>
-      {['bottom'].map((placement, idx) => (
-        <OffCanvasExample key={idx} placement={placement} name={placement} />
-      ))}
+      <OffCanvasExample placement="bottom" name="Nuestra Historia" />
     </>
   );
 }
 
-export default Example; 
+export default Example;
+

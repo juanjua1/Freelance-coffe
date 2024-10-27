@@ -2,7 +2,7 @@
 #root {
   max-width: 100%; /* El ancho máximo del contenedor se establece al 100% del contenedor padre */
   margin: 0 auto;  /* Centra el contenedor horizontalmente */
-  padding: 2rem;   /* Añade un padding de 2rem alrededor del contenedor */
+  padding: 0;      /* Se elimina el padding para evitar el espacio extra */
   text-align: center; /* Alinea el contenido del contenedor al centro */
 }
 
@@ -24,7 +24,6 @@ html, body, #root {
   height: 100%; /* Asegura que ocupe toda la altura */
   overflow-x: hidden; /* Evita el desbordamiento horizontal */
   background-color: #DEB887; /* Establece el color de fondo de la página a un tono "peach puff" (#FFDAB9) */
-
 }
 
 /* .container: Configuración del contenedor principal */
@@ -50,6 +49,8 @@ html, body, #root {
   width: 100vw; /* Asegura que la imagen ocupe todo el ancho de la ventana */
   height: auto; /* Ajusta la altura automáticamente */
   object-fit: cover; /* Recorta la imagen si es necesario para cubrir todo el contenedor sin deformarse */
+  margin: 0; /* Elimina márgenes adicionales */
+  padding: 0; /* Elimina padding adicional */
 }
 
 /* .header: Configuración de la cabecera */
@@ -83,4 +84,3 @@ html, body, #root {
   width: 100%; /* Asegura que el botón ocupe el 100% del contenedor */
   box-sizing: border-box; /* Incluye el padding en el ancho total */
 }
-

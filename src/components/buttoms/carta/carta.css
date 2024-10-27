@@ -14,3 +14,9 @@
 .button-common:hover {
   background-color: #F4A460; /* Color de fondo al pasar el ratón */
 }
+
+.button-common:focus {
+  outline: none; /* Quita el contorno */
+  background-color: #8B4513; /* Color de fondo original */
+  color: white; /* Color de texto original */
+}
