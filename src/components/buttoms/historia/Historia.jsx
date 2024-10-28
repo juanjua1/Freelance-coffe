@@ -19,23 +19,11 @@ function OffCanvasExample({ name, ...props }) {
           <Offcanvas.Title>Nuestra Historia</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          Yo vagaba mucho tiempo en el error,  
-          Agobiado en el pecado y el temor;  
-          Cuando vi al Salvador y escuché su tierna voz,  
-          Mi Señor me hizo libre por su amor.
-          Coro:  
-          Libre estoy, libre estoy,  
-          Por la gracia del Señor libre estoy.  
-          Libre estoy, libre estoy,  
-          ¡Aleluya, por la fe libre estoy!
-          Yo vagaba mucho tiempo en el error,  
-          Sin pensar en el amor del Salvador,  
-          Yo andaba con temor, lejos de mi Redentor,  
-          ¡Mas ahora por su muerte libre estoy!
-          Yo vagaba mucho tiempo en el error,  
-          Mas ahora quiero andar con mi Señor,  
-          Quiero oír su tierna voz, y seguirle siempre en pos,  
-          ¡Gloria, gloria sea a nuestro buen Pastor!
+        Cumbre Café Bar es una empresa familiar, reconocida por la calidad de sus productos y una atención excepcional. Después de visitar numerosos lugares de comida y bares, decidimos emprender nuestro propio negocio con el objetivo de ofrecer todo aquello que nos apasionaba y crear un espacio de encuentro con un ambiente acogedor y una carta de excelencia.
+
+Hemos llegado hasta aquí gracias al apoyo de tantas personas que creyeron en nuestros sueños tanto como nosotros. Nuestros padres e hijos han sido una fuente constante de motivación para seguir adelante.
+
+Por todo esto, creamos Cumbre... pero sabemos que esta no es nuestra última cima por alcanzar.
         </Offcanvas.Body>
       </Offcanvas>
     </>

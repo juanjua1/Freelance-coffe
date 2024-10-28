@@ -6,7 +6,7 @@ function facebook() {
     return (
         <Button 
             variant="prymary"
-            href="https://www.facebook.com/JustinBieber/?locale=es_LA"
+            href="https://maps.app.goo.gl/FSyhVQ3vrXh5e8Eg9"
             target="_blank"
             rel="noopener noreferrer"
             style={{

@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import './buttoms.css'
 
 function WhatsAppButton() {
-    const phoneNumber = '5492616570143'; // Reemplaza con el número del cliente, incluyendo el código de país
+    const phoneNumber = '5492616793263'; // Reemplaza con el número del cliente, incluyendo el código de país
 
     return (
      <Button 
